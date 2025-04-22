@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Image from "next/image";
 
 export default function Bio({}) {
@@ -16,7 +15,7 @@ export default function Bio({}) {
         <p>
           I recently graduated with a BS in Web Design & Development from
           Brigham Young University - Idaho. When I first started college I
-          wasn't sure what I wanted to go into besides something to do with
+          wasn&apos;t sure what I wanted to go into besides something to do with
           computers. I took a wide variety of courses and as sson as I hit my
           first web development course I was hooked. I love having a concept for
           a website and following through. Making everything fit together and
@@ -29,9 +28,9 @@ export default function Bio({}) {
           diving into Next.js to make this site the most streamlined and
           effective it can be. This is also my first time using TypeScript and
           Tailwind and it is fun learning what they can bring to my skillset.
-          I'm also doing a bit of freelance work on a WordPress site for an
+          I&apos;m also doing a bit of freelance work on a WordPress site for an
           author friend. He has decided to use Elementor but is a bit out of his
-          depth and I've had fun figuring out what parts of his site are
+          depth and I&apos;ve had fun figuring out what parts of his site are
           controlled in different places.
         </p>
         <h2>Skills</h2>
