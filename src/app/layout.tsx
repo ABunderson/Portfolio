@@ -32,8 +32,6 @@ export default function RootLayout({
           <Navigation />
         </header>
         {children}
-        {/* <div className="h-[25px] bg-gradient-to-t from-th-purple to-transparent"></div>
-<Footer/> */}
       </body>
     </html>
   );
