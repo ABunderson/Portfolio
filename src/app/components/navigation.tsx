@@ -6,7 +6,7 @@ export const Navigation = () => {
   const pathname = usePathname();
 
   return (
-    <div className="bg-th-purple h-12 border-b-4 border-black">
+    <div className="bg-th-purple h-12 border-b-4 border-black px-4">
       <div className="flex items-center justify-between max-w-none lg:max-w-7xl h-full m-auto">
         <div>
           <p>hi</p>
