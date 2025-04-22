@@ -19,6 +19,12 @@ export const Navigation = () => {
             Home
           </Link>
           <Link
+            href="/bio"
+            className={pathname === "/bio" ? "font-bold px-2" : "px-2"}
+          >
+            Bio
+          </Link>
+          <Link
             href="/project/1"
             className={
               pathname.startsWith("/project/1") ? "font-bold px-2" : "px-2"
