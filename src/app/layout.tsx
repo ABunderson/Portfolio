@@ -32,11 +32,6 @@ export default function RootLayout({
           <Navigation />
         </header>
         {children}
-        <div className="bg-th-purple py-2">
-          <footer className="lg:max-w-7xl m-auto w-full">
-            © 2025 Bunderson. All Rights Reserved.
-          </footer>
-        </div>
       </body>
     </html>
   );
