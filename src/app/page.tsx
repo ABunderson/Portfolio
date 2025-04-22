@@ -1,6 +1,5 @@
-import Image from "next/image";
-import { Footer } from "./components/footer";
-import { ProfileImg } from "./components/profileImg";
+import { Footer } from './components/footer';
+import { ProfileImg } from './components/profileImg';
 
 export default function Home() {
   return (
@@ -14,13 +13,12 @@ export default function Home() {
               I&apos;m Adrienne Bunderson
             </h1>
             <p>
-              I&apos;m a front-end developer that enjoys crafting attractive
-              easy to use websites
+              I&apos;m a front-end developer that enjoys crafting attractive easy to use websites
             </p>
 
             <p>
-              This portfolio is going through large renovations. Please excuse
-              any mess while I fix it up.
+              This portfolio is going through large renovations. Please excuse any mess while I fix
+              it up.
               <br />
               <a
                 href="https://planteddeep.wixsite.com/webworks"

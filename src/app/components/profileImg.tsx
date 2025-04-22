@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 type ImgProps = {
   gradient: boolean;
@@ -6,8 +6,8 @@ type ImgProps = {
 
 export const ProfileImg = ({ gradient }: ImgProps) => {
   const background = gradient
-    ? "bg-gradient-to-t from-white via-th-green to-th-purple"
-    : "bg-th-purple";
+    ? 'bg-gradient-to-t from-white via-th-green to-th-purple'
+    : 'bg-th-purple';
 
   return (
     <div
@@ -18,7 +18,9 @@ export const ProfileImg = ({ gradient }: ImgProps) => {
           src="/abProfile.jpg"
           alt="Profile image"
           fill
+          sizes="(max-width: 640px) 100vw, 400px"
           className="object-cover rounded-lg"
+          priority
         />
       </div>
     </div>

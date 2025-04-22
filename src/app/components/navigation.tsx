@@ -1,6 +1,6 @@
-"use client";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+'use client';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export const Navigation = () => {
   const pathname = usePathname();
@@ -12,33 +12,23 @@ export const Navigation = () => {
           <p>hi</p>
         </div>
         <nav className="flex items-center divide-x-2 divide-th-gray">
-          <Link
-            href="/"
-            className={pathname === "/" ? "font-bold px-2" : "px-2"}
-          >
+          <Link href="/" className={pathname === '/' ? 'font-bold px-2' : 'px-2'}>
             Home
           </Link>
-          <Link
-            href="/bio"
-            className={pathname === "/bio" ? "font-bold px-2" : "px-2"}
-          >
-            Bio
+          <Link href="/about" className={pathname === '/about' ? 'font-bold px-2' : 'px-2'}>
+            About
           </Link>
-          <Link
+          <Link href="/current" className={pathname === '/current' ? 'font-bold px-2' : 'px-2'}>
+            Current Projects
+          </Link>
+          {/* <Link
             href="/project/1"
             className={
               pathname.startsWith("/project/1") ? "font-bold px-2" : "px-2"
             }
           >
             Project 1
-          </Link>
-          <Link
-            href="/about"
-            className={pathname === "/about" ? "font-bold px-2" : "px-2"}
-          >
-            About
-          </Link>
-          <p>Projects</p>
+          </Link> */}
         </nav>
       </div>
     </div>
