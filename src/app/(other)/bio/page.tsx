@@ -1,8 +1,9 @@
+import { ProfileImg } from "@/app/components/profileImg";
 import Image from "next/image";
 
 export default function Bio({}) {
   return (
-    <div className="flex gap-4 sm:flex-col md:flex-row">
+    <div className="flex gap-4 flex-col md:flex-row">
       <div className="flex flex-col justify-center gap-4">
         <h1>About me</h1>
         <p>
@@ -53,16 +54,7 @@ export default function Bio({}) {
 
         {/* add links here for github, resume, linked in, email/contact form */}
       </div>
-      <div className="w-[400px] h-[400px] p-[10px] max-w-full bg-th-purple rounded-lg flex-shrink-0">
-        <div className="w-full h-full relative rounded-lg overflow-hidden bg-white ">
-          <Image
-            src="/abProfile.jpg"
-            alt="Profile image"
-            fill
-            className="object-cover rounded-lg"
-          />
-        </div>
-      </div>
+      <ProfileImg gradient={false} />
     </div>
   );
 }
