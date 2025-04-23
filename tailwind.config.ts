@@ -14,6 +14,7 @@ export default {
         'th-purple': '#AB90B6',
         'th-green': '#DDE3E2',
         'th-gray': '#D9D9D9',
+        'th-dk-green': '#263D42',
       },
     },
   },

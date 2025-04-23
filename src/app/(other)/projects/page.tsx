@@ -1,11 +1,11 @@
 import { ProjectCard } from '@/app/components/ProjectCard';
-import { currentProjects } from '@/app/data/projects';
+import { projects } from '@/app/data/projects';
 
-export default function Current() {
+export default function Projects() {
   return (
     <>
-      <h1>Current Projects</h1>
-      {currentProjects.map((project, index) => {
+      <h1>All Projects</h1>
+      {projects.map((project, index) => {
         return <ProjectCard project={project} index={index} key={project.title} />;
       })}
       <hr className="border-t border-gray-500 my-6" />

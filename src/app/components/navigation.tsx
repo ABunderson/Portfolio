@@ -21,6 +21,9 @@ export const Navigation = () => {
           <Link href="/current" className={pathname === '/current' ? 'font-bold px-2' : 'px-2'}>
             Current Projects
           </Link>
+          <Link href="/projects" className={pathname === '/projects' ? 'font-bold px-2' : 'px-2'}>
+            Projects
+          </Link>
           {/* <Link
             href="/project/1"
             className={
