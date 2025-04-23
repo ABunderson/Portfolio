@@ -29,20 +29,7 @@ export const ProjectCard = ({ project, index }: ProjectCardProps) => {
             ))}
           </ul>
           <br />
-          <h3>Links</h3>
-          <div className="underline">
-            {project.links.site && (
-              <a href={project.links.site} target="_blank">
-                Live Site
-              </a>
-            )}
-            <br />
-            {project.links.github && (
-              <a href={project.links.github} target="_blank">
-                GitHub Repo
-              </a>
-            )}
-          </div>
+          <LinkSection links={project.links} />
         </div>
         <div className="w-full max-w-[450px] mx-auto">
           <Image
@@ -57,9 +44,48 @@ export const ProjectCard = ({ project, index }: ProjectCardProps) => {
         </div>
 
         {/* gallery */}
-
-        {/* video */}
       </div>
     </>
   );
 };
+
+type Links = Project['links'];
+
+type LinkProps = {
+  links: Links;
+};
+
+function LinkSection({ links }: LinkProps) {
+  return (
+    <>
+      <h3>Links</h3>
+      <div className="underline">
+        {links.site && (
+          <>
+            <a href={links.site} target="_blank">
+              Live Site
+            </a>
+            <br />
+          </>
+        )}
+
+        {links.github && (
+          <>
+            <a href={links.github} target="_blank">
+              GitHub Repo
+            </a>
+            <br />
+          </>
+        )}
+        {links.video && (
+          <>
+            <a href={links.video} target="_blank">
+              Video Overview
+            </a>
+            <br />
+          </>
+        )}
+      </div>
+    </>
+  );
+}
