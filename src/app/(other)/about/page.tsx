@@ -44,7 +44,7 @@ export default function About({}) {
           can sit on it and work on it at the same time?
         </p>
 
-        {/* add links here for github, resume, linked in, email/contact form */}
+        {/* add links here for github, linked in, email/contact form */}
         <a
           href="https://docs.google.com/document/d/17E8oCbpet2yCK9reDphRXp3V3rXfJC_ygrK7gB0lq8Y/export?format=pdf"
           target="_blank"
@@ -52,6 +52,15 @@ export default function About({}) {
           className="self-start inline-block bg-th-purple px-4 py-2 rounded hover:bg-th-dk-green hover:text-white transition mb-4"
         >
           Download Resume
+        </a>
+
+        <a
+          href="https://docs.google.com/document/d/17E8oCbpet2yCK9reDphRXp3V3rXfJC_ygrK7gB0lq8Y/preview"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-th-purple px-4 py-2 rounded hover:bg-th-dk-green hover:text-white transition mb-4 w-fit"
+        >
+          View Resume
         </a>
       </div>
       <ProfileImg gradient={false} />
