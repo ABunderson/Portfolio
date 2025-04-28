@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio Adrienne Bunderson',
+  title: 'Adrienne Bunderson Portfolio',
   description: 'A porfolio showcasing the work of Adrienne Bunderson',
 };
 
