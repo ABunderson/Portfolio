@@ -13,8 +13,8 @@ export const projects: Project[] = [
     ],
     skills: ['Next.js', 'TypeScript', 'React.js', 'Tailwind'],
     links: { github: 'https://github.com/ABunderson/Portfolio', site: 'easter-egg' },
-    img: '/placeholder.png',
-    alt: 'A placeholder image that will be replaced',
+    img: '/portfolio.png',
+    alt: 'A screenshot of the homepage of this website',
     gallery: [],
   },
   {
@@ -35,7 +35,7 @@ export const projects: Project[] = [
   },
   {
     current: false,
-    title: 'Dance Flower Order Taking',
+    title: 'Dance Flower Order App',
     subtitle: 'My capstone project',
     year: 2023,
     description: [
@@ -47,8 +47,8 @@ export const projects: Project[] = [
       site: 'https://dance-order-app.vercel.app/',
       github: 'https://github.com/ABunderson/dance-order-app',
     },
-    img: '/placeholder.png',
-    alt: 'A placeholder image that will be replaced',
+    img: '/dance-order.png',
+    alt: 'A screenshot of the Dance Flower Order App',
     gallery: [],
   },
   {
@@ -65,8 +65,8 @@ export const projects: Project[] = [
       site: 'https://moonlit-khapse-ec496d.netlify.app/',
       github: 'https://github.com/ABunderson/BoTWCollectionList',
     },
-    img: '/placeholder.png',
-    alt: 'A placeholder image that will be replaced',
+    img: '/botw.png',
+    alt: 'A screenshot of the BOTW Collection website',
     gallery: [],
   },
   {
@@ -76,15 +76,15 @@ export const projects: Project[] = [
     year: 2023,
     description: [
       'This is a team project that I optimized with JavaScript for Web Frontend Development II. I completed set tasks with and without a partner as we increased the responsiveness of the site. This site does not have any personal touches on it and it was a fun challenge to have multiple people working on a site because you never knew when something done prior was going to break a new task.',
-      'The database is owned by the school and now longer is connected to the site. There is no way to get it back.',
+      'The database is owned by the school and sometimes unavailable. It can take a while to show up.',
     ],
     skills: ['JavaScript', 'HTML', 'CSS', 'Netlify', 'Node.js'],
     links: {
       site: 'https://precious-griffin-dfa5ab.netlify.app/',
       github: 'https://github.com/ABunderson/Team-3-WDD330',
     },
-    img: '/placeholder.png',
-    alt: 'A placeholder image that will be replaced',
+    img: '/sleep-outside.png',
+    alt: 'A screenshot of the SleepOutside school project',
     gallery: [],
   },
   {
@@ -101,8 +101,8 @@ export const projects: Project[] = [
       github: 'https://github.com/ABunderson/CIT365-W2023-BundersonAdrienne',
       video: 'https://www.youtube.com/watch?v=w9vEvFlc8mQ',
     },
-    img: '/placeholder.png',
-    alt: 'A placeholder image that will be replaced',
+    img: '/net.jpg',
+    alt: 'A screenshot of a .NET website',
     gallery: [],
   },
   {
@@ -118,8 +118,8 @@ export const projects: Project[] = [
       github: 'https://github.com/ABunderson/phpmotors',
       video: 'https://youtu.be/IU5pn1S1Pic',
     },
-    img: '/placeholder.png',
-    alt: 'A placeholder image that will be replaced',
+    img: '/php.png',
+    alt: 'A screenshot of a retro car website',
     gallery: [],
   },
   {
@@ -134,8 +134,8 @@ export const projects: Project[] = [
     links: {
       site: 'https://www.instagram.com/guessthetemptation/ ',
     },
-    img: '/placeholder.png',
-    alt: 'A placeholder image that will be replaced',
+    img: '/social-brand.png',
+    alt: 'A screenshot of a social media post',
     gallery: [],
   },
   {
@@ -149,6 +149,57 @@ export const projects: Project[] = [
     skills: ['Amazon Affiliate', 'Google sites'],
     links: {
       video: 'https://youtu.be/EsqFChTHbmE',
+    },
+    img: '/business.png',
+    alt: 'A screenshot of a Google Sites website about puzzles',
+    gallery: [],
+  },
+  {
+    current: false,
+    title: 'Non-Profit Org',
+    subtitle: 'A class project',
+    year: 2022,
+    description: [
+      'For a COMM 310 class creating online Media the goal was to create a non-profit website using WordPress. We learned how to manipulate WordPress to create the effect we wanted and also how to create good wireframes using an Adobe program. I had a lot of fun creating this site. ',
+      'I have sadly lost access to the site. I did not realize I would lose this information when I stopped my subscription to the site it was hosted on. ',
+    ],
+    skills: ['WordPress', 'HTML', 'CSS'],
+    links: {
+      video: 'https://www.youtube.com/watch?v=9tVuZjjtagI&t=6s',
+    },
+    img: '/non-profit.png',
+    alt: 'A screenshot of a website with multiple drop downs',
+    gallery: [],
+  },
+  {
+    current: false,
+    title: 'Chamber of Commerce',
+    subtitle: 'A class project',
+    year: 2021,
+    description: [
+      'I created this website for my Web Frontend Development course. It is a Chamber of Commerce website for my hometown. I aquired permission from the city when I created it and took most of the picture myself. My code is not as advanced as it is now and some of the visual choices are a little akward when I look back on them.',
+      'I did contact the city of Highland before creating this site.',
+    ],
+    skills: ['JavaScript', 'HTML', 'CSS'],
+    links: {
+      site: 'https://abunderson.github.io/final/index.html',
+      github: 'https://github.com/ABunderson/abunderson.github.io',
+    },
+    img: '/commerce.png',
+    alt: 'A screenshot of a website featuring a mountain residing over a small city',
+    gallery: [],
+  },
+  {
+    current: false,
+    title: 'Zen Garden',
+    subtitle: 'A school assigment',
+    year: 2021,
+    description: [
+      'I worked on this site with a partner in an Advanced CSS class. It was a pirate themed Zen Garden challenge. I did a lot of the coding myself while my parter was responsible for the visual pieces. This was supposed to be a project with four people but we ended up losing the rest of our group.',
+    ],
+    skills: ['CSS'],
+    links: {
+      github: 'https://github.com/ABunderson/GroupProject331.github.io',
     },
     img: '/placeholder.png',
     alt: 'A placeholder image that will be replaced',
