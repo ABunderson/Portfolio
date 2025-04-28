@@ -9,7 +9,6 @@ export const Navigation = () => {
     <div className="bg-th-purple h-12 border-b-4 border-black px-4">
       <div className="flex items-center justify-between max-w-none lg:max-w-7xl h-full m-auto">
         <div>
-          <p>hi</p>
         </div>
         <nav className="flex items-center divide-x-2 divide-th-gray">
           <Link href="/" className={pathname === '/' ? 'font-bold px-2' : 'px-2'}>
