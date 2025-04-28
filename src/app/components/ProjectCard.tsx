@@ -13,7 +13,7 @@ export const ProjectCard = ({ project, index }: ProjectCardProps) => {
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl m-auto gap-4">
         <div>
           <h2>
-            {project.year}: {project.title}
+            <span className="font-kalam">{project.year}</span>: {project.title}
           </h2>
           <p>{project.subtitle}</p>
           <br />

@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        kalam: ['"Kalam"', 'cursive'],
+      },
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
