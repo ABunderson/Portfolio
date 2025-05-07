@@ -1,6 +1,6 @@
 import { Project } from '../types/Project';
-import Image from 'next/image';
 import { Kalam } from 'next/font/google';
+import FallbackImage from './FallbackImage';
 
 const kalam = Kalam({
   weight: ['300', '400', '700'],
@@ -38,7 +38,7 @@ export const ProjectCard = ({ project, index }: ProjectCardProps) => {
           <LinkSection links={project.links} />
         </div>
         <div className="w-full max-w-[450px] mx-auto">
-          <Image
+          <FallbackImage
             src={project.img}
             alt={project.alt}
             width={400}

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import FallbackImage from './FallbackImage';
 
 type ImgProps = {
   gradient: boolean;
@@ -14,7 +14,7 @@ export const ProfileImg = ({ gradient }: ImgProps) => {
       className={`w-full max-w-[400px] h-full max-h-[400px] p-[10px] aspect-square rounded-lg flex-shrink-0 ${background}`}
     >
       <div className="w-full h-full relative rounded-lg overflow-hidden bg-white ">
-        <Image
+        <FallbackImage
           src="/abProfile.jpg"
           alt="Profile image"
           fill
