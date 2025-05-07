@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import FallbackImage from './FallbackImage';
 
 export default function PolaroidGallery() {
   const top: string[] = ['20px', '20px', '270px', '270px', '140px'];
@@ -19,7 +19,7 @@ export default function PolaroidGallery() {
                 zIndex: index,
               }}
             >
-              <Image
+              <FallbackImage
                 src={src}
                 alt={`Polaroid ${index + 1}`}
                 className="w-full h-full object-cover"
