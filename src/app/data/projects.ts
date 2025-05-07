@@ -201,7 +201,7 @@ export const projects: Project[] = [
     links: {
       github: 'https://github.com/ABunderson/GroupProject331.github.io',
     },
-    img: '/placeholder.png',
+    img: '/zen.png',
     alt: 'A placeholder image that will be replaced',
     gallery: [],
   },
