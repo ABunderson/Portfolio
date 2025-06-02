@@ -15,20 +15,6 @@ export default function Home() {
             <p>
               I&apos;m a front-end developer that enjoys crafting attractive easy to use websites
             </p>
-
-            <p>
-              This portfolio is going through large renovations. Please excuse any mess while I fix
-              it up.
-              <br />
-              <a
-                href="https://planteddeep.wixsite.com/webworks"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-purple-500 transition-colors"
-              >
-                Old Portfolio
-              </a>
-            </p>
           </div>
           <ProfileImg gradient={true} />
         </div>
