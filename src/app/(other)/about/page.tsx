@@ -46,7 +46,7 @@ export default function About({}) {
 
         {/* add links here for github, linked in, email/contact form */}
         <a
-          href="https://docs.google.com/document/d/17E8oCbpet2yCK9reDphRXp3V3rXfJC_ygrK7gB0lq8Y/export?format=pdf"
+          href="https://docs.google.com/document/d/1MBLNL8C_xCIUkCTiekPnQmBaj6fWZ8VJYZkb7tdYmcU/export?format=pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="self-start inline-block bg-th-purple px-4 py-2 rounded hover:bg-th-dk-green hover:text-white transition mb-4"
@@ -55,7 +55,7 @@ export default function About({}) {
         </a>
 
         <a
-          href="https://docs.google.com/document/d/17E8oCbpet2yCK9reDphRXp3V3rXfJC_ygrK7gB0lq8Y/preview"
+          href="https://docs.google.com/document/d/1MBLNL8C_xCIUkCTiekPnQmBaj6fWZ8VJYZkb7tdYmcU/preview"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-th-purple px-4 py-2 rounded hover:bg-th-dk-green hover:text-white transition mb-4 w-fit"
