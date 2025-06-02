@@ -5,6 +5,7 @@ export default function Current() {
   return (
     <>
       <h1>Current Projects</h1>
+      <p>Things I am currently working on.</p>
       {currentProjects.map((project, index) => {
         return <ProjectCard project={project} index={index} key={project.title} />;
       })}
