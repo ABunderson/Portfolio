@@ -40,7 +40,7 @@ export const projects: Project[] = [
     year: 2023,
     description: [
       'I wanted to make something that I could see a use for and this is what I settled on. I worked as a florist part-time and talking people through the process of ordering dance flowers is an arduous experience and having a site that walks people through all the steps with pictures would make it so much easier. I ran out of time to finish it as it was much more ambitious than I realized. I spent around 160 hours on the site. The front end is complete and the backend is halfway done. The design was based off of the site of the florist I worked at.',
-      'The database connection is currently down because of disuse. I will be working on getting that back up - April 23 2025.',
+      'Feel free to put in an order to see how the process goes. It is not actually conencted to any flower shops it\'s just an idea I had that would improve a process.',
     ],
     skills: ['Next.js', 'React.js', 'MongoDB Atlas', 'styled-components', 'Vercel'],
     links: {
